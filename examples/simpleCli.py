@@ -1,4 +1,4 @@
-from ../main.py import Battle
+from ../main import Battle
 try:
   a = int(input("first pokemon id: "))
   b = int(input("second pokemon id: "))
