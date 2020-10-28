@@ -43,8 +43,3 @@ class Battle:
       elif self.p2["health"] <= 0:
         self.data["pokemon"] = pb.pokemon(self.p1["name"])
        
-
-
-
-test = Battle(134,356)
-print(test.data["msg"])
